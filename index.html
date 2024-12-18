@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- icons css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header id="head">
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <!-- logo -->
+                <a href="#" class="logo">Portfolio</a>
+
+                <button class="btn btn-toggler" id="toggler">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- menu links -->
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#home" class="menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#education" class="menu-link">Education</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#skills" class="menu-link">Skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#projects" class="menu-link">Projects</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" class="menu-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- end menu -->
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- home block -->
+    <section id="home-block">
+        <div class="container home-container" id="home">
+            <div class="row">
+                <div class="col">
+                    <div class="content">
+                        <h5 class="sub-title">Hello, This is John</h5>
+                        <h1 class="title">Hi, I'm <span>John</span> <br> I'm <span>FullStack</span> Developer </h1>
+
+                        <div class="btn-block">
+                            <button class="btn btn-dark">Hire Me</button>
+                            <button class="btn btn-outline">Download CV</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col shape-1">
+                    <img src="./images//code_thinking.svg" alt="no image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+
+    <section id="about">
+        <div class="container about-container">
+            <div class="row">
+                <div class="col">
+                    <img src="./images/male_avatar.svg" alt="no pic">
+                </div>
+                <div class="col about-content">
+                    <div class="about-title">
+                        <h5>My Intro</h5>
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima beatae, ipsam quia recusandae itaque nostrum totam!</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"> <i class="fab fa-facebook"></i> </a>
+                        <a href="#"> <i class="fab fa-github"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                    </div>
+                    <ul class="list-group">
+                        <li>
+                            <strong>Name:</strong>
+                            <span class="txt">John</span>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <span class="txt">john@gmail.com</span>
+                        </li>
+                        <li>
+                            <strong>Mobile:</strong>
+                            <span class="txt">9966554411</span>
+                        </li>
+                        <li>
+                            <strong>Address:</strong>
+                            <span class="txt">#232,Rajaji nagar,Bengaluru-10</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+    <section id="education">
+        <div class="container education-container">
+            <div class="row">
+                <div class="col">
+                    <div class="education-title">
+                        <h2>Education Qualification</h2>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>Institutue</th>
+                                <th>Passing</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>M.Tech</td>
+                                <td>XYZ Technology</td>
+                                <td>2024</td>
+                                <td>86%</td>
+                            </tr>
+                            <tr>
+                                <td>B.E</td>
+                                <td>ACV Technology</td>
+                                <td>2021</td>
+                                <td>80%</td>
+                            </tr>
+                            <tr>
+                                <td>Diploma/P.U</td>
+                                <td>Abc College</td>
+                                <td>2016</td>
+                                <td>75%</td>
+                            </tr>
+                            <tr>
+                                <td>10th</td>
+                                <td>RGB School</td>
+                                <td>2014</td>
+                                <td>80%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end education section -->
+
+    <!-- skills -->
+    <section id="skills">
+        <div class="container skills-container">
+            <div class="row">
+                <div class="col">
+                    <div class="skills-title">
+                        <h5>Technologies</h5>
+                        <h2>My Skills</h2>
+                    </div>
+                    <div class="skills-card">
+                        <div class="card">
+                            <h5 class="card-title">HTML</h5>
+                            <div class="progress html" data-value="95">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">Css</h5>
+                            <div class="progress css" data-value="80">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">JavaScript</h5>
+                            <div class="progress js" data-value="78">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">ReactJS</h5>
+                            <div class="progress react" data-value="70">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">NodeJS</h5>
+                            <div class="progress node" data-value="74">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">ExpressJS</h5>
+                            <div class="progress express" data-value="80">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">Mongo DB</h5>
+                            <div class="progress mongo" data-value="84">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">MySQL DB</h5>
+                            <div class="progress mysql" data-value="68">
+                                <div class="inner-circle"></div>
+                                <span class="pro-val"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of skills -->
+
+
+    <!-- project section -->
+    <section id="projects">
+        <div class="container project-container">
+            <div class="project-title">
+                <h5>My Work</h5>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="project-cards">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg" alt="no pic">
+                    </div>
+                    <div class="card-back">
+                        <div class="data">
+                            <h3>Project-1</h3>
+                            <div class="links">
+                                <a href="#" class="btn git">Github</a>
+                                <a href="#" class="btn live">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg" alt="no pic">
+                    </div>
+                    <div class="card-back">
+                        <div class="data">
+                            <h3>Project-2</h3>
+                            <div class="links">
+                                <a href="#" class="btn git">Github</a>
+                                <a href="#" class="btn live">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg" alt="no pic">
+                    </div>
+                    <div class="card-back">
+                        <div class="data">
+                            <h3>Project-3</h3>
+                            <div class="links">
+                                <a href="#" class="btn git">Github</a>
+                                <a href="#" class="btn live">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end project -->
+
+    <section id="contact">
+        <div class="container contact-container">
+            <div class="contact-card">
+                <div class="row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.669371385091!2d77.53652207507683!3d12.992986387324338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d8ad89380bd%3A0xe619385693ac1684!2sBe%20Practical%20Tech%20Solutions%20%7C%20Top%20Software%20Training%20Institute%20in%20Bangalore%20%7C%20Data%20Science%20%7C%20Cloud%20Computing%20%7C%20MERN!5e0!3m2!1sen!2sin!4v1734515550426!5m2!1sen!2sin"
+                        width="300" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+    <footer class="foot">
+        <div class="container footer-container">
+            <p>
+                ALL Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <!-- js -->
+    <script src=" ./js/app.js "></script>
+</body>
+
+</html>
